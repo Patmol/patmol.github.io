@@ -8,38 +8,38 @@
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 #--------------------------
 
-title: Chirpy                          # the main title
+title: Cedric Evrard                   # the main title
 
-tagline: A text-focused Jekyll theme.  # it will display as the sub-title
+tagline: Blog  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.
+  Software engineer writing about tech, programming and sometimes gaming
 
 # Replace with your domain, e.g. 'https://username.github.io'
-url: 'protocol://domain'
+url: 'https://patmol.github.io'
 
-author: your_full_name                  # change to your full name
+author: Cedric Evrard                   # change to your full name
 
-avatar: /assets/img/sample/avatar.jpg   # support internet resources
+avatar: /assets/img/commons/avatar.png   # support internet resources
 
 github:
-  username: github_username             # change to your github username
+  username: Patmol             # change to your github username
 
 twitter:
-  username: twitter_username            # change to your twitter username
+  username: patmol6            # change to your twitter username
 
 social:
-  name: your_full_name                  # it will shows as the copyright owner in Footer
-  email: example@doamin.com             # change to your email address
+  name: Cedric Evrard                  # it will shows as the copyright owner in Footer
+  email: cedric@evrard.io             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    - https://twitter.com/patmol6      # change to your twitter homepage
+    - https://github.com/patmol       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: google_meta_tag_verification # change to your verification string
+# google_site_verification: google_meta_tag_verification # change to your verification string
 
 #--------------------------
 
@@ -47,7 +47,7 @@ google_site_verification: google_meta_tag_verification # change to your verifica
 baseurl: ''
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone:  Europe/Brussels
 
 google_analytics:
   # Fill with your Google Analytics ID
@@ -65,7 +65,7 @@ disqus:
   shortname: ''    # Fill with your Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # The year your website first ran.
-first_run: 2019
+first_run: 2020
 
 # boolean type, global switch for ToC in posts.
 toc: true
