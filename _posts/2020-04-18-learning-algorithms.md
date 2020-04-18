@@ -1,6 +1,6 @@
 ---
 title: "Why you need to learn algorithms"
-date: 2020-03-15 14:10:00 +0800
+date: 2020-04-18 14:10:00 +0800
 categories: [Computer Science, Algorithm]
 tags: [cs, algorithm]
 ---
@@ -17,9 +17,10 @@ Let's take a typical example, the array order. Of course, most of the languages 
 
 ### The _naïve_ method
 An easy way to order an array is to compare an element with the next one, and if the first element is greater than the second one, swap them otherwise, leave them like this. Then, make a comparison between the second and the third element. And once again, if the second is greater than thrid, swap them.
-By performing this action from the first element to the last one, the greater element is put at the end of the array.
+If we make this comparison from the first element to the last one, we put the greater element of the array at the end of it.
 
-To order the array, this action needs to be performed those actions again, from the first to the element before the one you set at the end before.
+If we want to order the array, we need to repeat this action, each time from the first element of the array to the element before the one we just order, by putting it at the end of the sub-array we order.
+By repeating this action until we only have one element left, the first one, we can order our array. 
 
 Now we have an idea of what we need to do to order an array, let's write some C++ code to do it!
 
@@ -180,7 +181,7 @@ To compute 5, we need to compute 4 and 3, to compute 4, we need to compute 3 and
 
 An easy way to improve the performance to calculate a Fibonacci sequence is to save the values of already calculated numbers that we reuse.
 
-Here a code which uses this technique.
+Here a code that uses this technique.
 
 ```cpp
 long long int fibMethodWay(int n) {
