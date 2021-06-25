@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Title</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Source+Code+Pro:ital@0;1&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/assets/css/all.min.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+    <div class="sidebar">
+        <div>
+    <a href="/">
+        <img src="/assets/img/logo.png" alt="logo">
+    </a>
+    <nav>
+                <a href="/index.html"><i class="fas fa-home"></i> Home</a>
+                <a href="/tags.html"><i class="fas fa-tags"></i> Tags</a>
+                <a href="/categories.html"><i class="fas fa-stream"></i> Categories</a>
+                <a href="/resume.html"><i class="fas fa-file"></i> Resume</a>
+                <a href="/archives.html"><i class="fas fa-archive"></i> Archives</a>
+                <a href="/about-me.html"><i class="fas fa-info"></i> About Me</a>
+            </nav>
+    <div class="social-network">
+                <a href="https://twitter.com/@patmol6" target="_blank"><i
+                class="fab fa-twitter-square"></i></a>
+                        <a href="https://github.com/patmol" target="_blank"><i class="fab fa-github-square"></i></a>
+                                <a
+            href=" javascript:location.href = 'mailto:' + ['evrardc','icloud.com'].join('@')"><i
+                class="fas fa-envelope-square"></i></a>
+            </div>
+</div>
+    </div>
+    <div class="content">
+        <div>
+    <article>
+        <h1>
+            Why I've created a blog generator?
+        </h1>
+        <div class="information">
+                        Published by <strong>Patmol</strong> on 
+            <em>June 12, 2021</em>
+        </div>
+        <h2 id="whats-a-blog-generator">What's a blog generator?</h2>
+<p>A blog generator will take various files and generates a static HTML site. The files used by the generator will depend on this one but in our case, it will be a mix of HTML/CSS/JS files for the structure of the blog and markdown files for the content of it.</p>
+<p>For me, the advantage of the blog generator over a CMS like WordPress is the lightness of the system. Once the blog template is done (and you can take an existing one), you need to write the post in markdown files, build the blog and publish it. Easy :-)</p>
+<h2 id="why-create-my-one">Why create my one?</h2>
+<p>In the past, I used <a href="http://jekyllrb.com/" title="Jekyll">Jekyll</a>, a really well-known - and with a lot of qualities - blog generator. But Jekyll has some prerequisites that make the use of it not as friendly I would like.</p>
+<p>Indeed, I'm not using Ruby or RubyGems every day, and when I've tried to reinstall it, this got a little messy, and I could not build my blog.
+It's my fault; I've probably done something that I should not during the installation process, but it bothers me, and so, I've asked myself why not build my blog generator.</p>
+<h2 id="what-technologies-used">What technologies used?</h2>
+<p>There are two parts to the <em>DotNetBlog</em> project.
+The first one is the blog itself and its content. This part uses HTML and CSS for the template and Markdown for the content, just standard technologies for this kind of stuff.</p>
+<p>The second part is the blog generator. The generation of the blog itself is the most challenging part of the project but also the most fun to work on.
+The blog generator is built with .NET Core, in C#, with various packages to avoid reinventing the wheel. I've chosen to use .NET Core to make the project available on every OS and easy to use.
+As a madder of fact, the goal is only to install the .NET CLI and a NuGet package, then have to run a command to build (or test) your blog.</p>
+<h2 id="whats-next">What's next?</h2>
+<p>This blog is built with <em>DotNetBlog</em> but the project is far from over.</p>
+<p>The blog built is elementary; I need to review the accessibility of the generated HTML, add a sitemap, a search function, and a lot of features.
+So, it's a very early version that I'm using, but if I want to improve my generator, I need to use it to see what's working right and what can be improved.</p>
+<blockquote>
+<p>This project is open-source; <a href="https://github.com/Patmol/DotNetBlog" title="GitHub">you can find the code on GitHub</a>.</p>
+</blockquote>
+
+    </article>
+</div>
+
+        <div class="right-panel">
+    <h4>Latest Posts</h4>
+            <a class="post" href="/tags/why-i%27ve-created-a-blog-generator%3f.html">Why I've created a blog generator?</a>
+        <h4>Trending Tags</h4>
+            <a class="tag" href="/tags/development.html">development</a>
+            <a class="tag" href="/tags/web.html">web</a>
+            <a class="tag" href="/tags/dotnetblog.html">dotnetblog</a>
+    </div>
+    </div>
+</body>
+</html>

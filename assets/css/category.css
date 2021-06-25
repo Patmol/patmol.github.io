@@ -1,0 +1,40 @@
+.category {
+    border: 1px solid #8DB8B8;
+    border-bottom: none;
+    padding: 1rem;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    display: block;
+    background-color: #1E1E1E;
+}
+
+.category:first-of-type {
+    margin-top: 0.5rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.category:last-of-type {
+    border-bottom: 1px solid #8DB8B8;
+    margin-bottom: 0.5rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.category i {
+    margin-right: 0.5rem;
+}
+
+.category span {
+    color: #E3E3E3;
+}
+
+.category-item {
+    margin: 1rem 0;
+    list-style: circle;
+}
+
+.category-item span {
+    float: right;
+    font-size: 0.75rem;
+}

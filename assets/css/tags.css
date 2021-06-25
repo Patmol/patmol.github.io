@@ -1,0 +1,21 @@
+.tag {
+    border: 1px solid #8DB8B8;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    text-decoration: none;
+}
+
+.tag:hover {
+    border-color: #3D8A8A;
+}
+
+.tag-item {
+    margin: 1rem 0;
+    list-style: circle;
+}
+
+.tag-item span {
+    float: right;
+    font-size: 0.75rem;
+}

@@ -1,0 +1,33 @@
+.home-post-list {
+    padding: 2rem 3rem;
+}
+
+.home-post-list article {
+    border-bottom: 1px solid #636363;
+    margin: 2rem 0;
+    padding-bottom: 1rem;
+}
+
+.home-post-list a {
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.home-post-list p {
+    text-decoration: none;
+    font-size: 0.875rem;
+}
+
+.home-post-list .information {
+    color: #B3B3B3;
+    font-size: 0.8125rem;
+}
+
+.home-post-list .information span {
+    margin-right: 2rem;
+    display: inline-block;
+}
+
+.home-post-list .information span i {
+    margin-right: 0.3rem;
+}
